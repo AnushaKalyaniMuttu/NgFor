@@ -1,0 +1,2 @@
+<div *ngFor="let logitem of log"
+[ngStyle]="{background Color: logItem>=5 ? 'blue' : 'transparent' >{{logitem}}</div>
