@@ -1,0 +1,4 @@
+// log array should be defined in ts file
+log =[]
+// in component.html file should be written
+<div *ngFor="let logitem of log">{{logitem}}</div>
